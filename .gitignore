@@ -1,0 +1,21 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Env / secrets
+.env
+
+# Local data
+data/
+pdfs/*.pdf
+pdfs/*.md
+pdfs/*.markdown
+pdfs/*.txt
+!pdfs/.gitkeep
+
+# Old Chroma store, if still present
+db/
+
+# OS
+.DS_Store
