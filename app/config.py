@@ -9,6 +9,7 @@ class Settings(BaseSettings):
     embed_model: str = "nomic-embed-text"
     docs_dir: str = "./pdfs"
     top_k: int = 3
+    history_messages: int = 6   # how many prior messages feed the rewrite + the answer prompt
 
 
 settings = Settings()
